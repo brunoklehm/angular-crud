@@ -1,6 +1,7 @@
 # Angular CRUD
 
 Esse projeto tem uma grande base no tutorial disponível na documentação oficial do Angular, chamado de "Tour of Heroes". 
+
 Foi utilizado também o Angular Material para a estilização do projeto.
 Abaixo estão as informações para desenvolver.
 
