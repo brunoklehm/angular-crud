@@ -1,0 +1,13 @@
+<h2>Heróis</h2>
+
+<button mat-raised-button class="add" color="primary" (click)="openDialog()">Adicionar herói</button>
+
+<ul class="heroes">
+  <li *ngFor="let hero of heroes">
+    <a routerLink="/detail/{{hero.id}}">
+      <span class="badge">{{hero.id}}</span> {{hero.name}}
+    </a>
+    <button class="action" title="delete hero"
+      (click)="delete(hero)">x</button>
+  </li>
+</ul>
